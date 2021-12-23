@@ -1,0 +1,139 @@
+{
+    "harga" : [
+        {
+            "id"  : "toilet_kecil",
+            "cost": "400000"
+        },
+        {
+            "id"  : "toilet_sedang",
+            "cost": "500000"
+        },
+        {
+            "id"  : "toilet_besar",
+            "cost": "600000"
+        },    
+        {
+            "id"  : "cleaning_perawatan",
+            "cost": "15000"
+        },
+        {
+            "id"  : "cleaning_renovasi",
+            "cost": "20000"
+        },
+        {
+            "id"  : "cleaning_bencana",
+            "cost": "25000"
+        },
+        {
+            "id"  : "coating_batu_alam",
+            "cost": "30000"
+        },
+        {
+            "id"  : "coating_vinyl",
+            "cost": "25000"
+        },
+        {
+            "id"  : "karpet_general",
+            "cost": "15000"
+        },
+        {
+            "id"   : "bed_single",
+            "title": "bed single",
+            "desc" : "(1 x 2m) including 1 pair bantal guling" ,
+            "cost" : "200000"
+        },
+        {
+            "id"   : "bed_single_plus",
+            "title": "bed single plus",
+            "desc" : "(1,2 x 2m)including 1 pair bantal guling" ,
+            "cost" : "225000"
+        },
+        {
+            "id"   : "bed_queen",
+            "title": "bed queen",
+            "desc" : "(1,6 x 2m)including 2 pair bantal guling" ,
+            "cost" : "250000"
+        },
+        {
+            "id"   : "bed_king",
+            "title": "bed king",
+            "desc" : "(1,8 x 2m)including 2 pair bantal guling" ,
+            "cost" : "275000"
+        },
+        {
+            "id"   : "bed_super_king",
+            "title": "bed super king",
+            "desc" : "(2 x 2m)including 2 pair bantal guling" ,
+            "cost" : "300000"
+        },
+        {
+            "id"   : "soft_headborad_single",
+            "desc" : "(1 x 2m)" ,
+            "cost" : "200000"
+        },
+        {
+            "id"   : "soft_headborad_single_plus",
+            "desc" : "(1,2 x 2m)" ,
+            "cost" : "225000"
+        },
+        {
+            "id"   : "soft_headborad_queen",
+            "desc" : "(1,6 x 2m)" ,
+            "cost" : "250000"
+        },
+        {
+            "id"   : "soft_headborad_king",
+            "desc" : "(1,8 x 2m)" ,
+            "cost" : "275000"
+        },
+        {
+            "id"   : "soft_headborad_super_king",
+            "desc" : "(2 x 2m)" ,
+            "cost" : "300000"
+        },
+        {
+            "id"   : "sofa_small",
+            "desc" : "Ukuran </=100cm" ,
+            "cost" : "70000"
+        },
+        {
+            "id"   : "sofa_medium",
+            "desc" : "Panjang 101 — 170cm" ,
+            "cost" : "150000"
+        },
+        {
+            "id"   : "sofa_large",
+            "desc" : "Panjang 171 — 240cm" ,
+            "cost" : "250000"
+        },
+        {
+            "id"   : "sofa_jumbo",
+            "desc" : "Panjang 241 — 300cm" ,
+            "cost" : "300000"
+        },
+        {
+            "id"   : "sofa_bed_small",
+            "desc" : "</=100cm" ,
+            "cost" : "110000"
+        },
+        {
+            "id"   : "sofa_bed_medium",
+            "desc" : "Panjang 101 — 170cm" ,
+            "cost" : "250000"
+        },
+        {
+            "id"   : "sofa_bed_large",
+            "desc" : "Panjang 171 — 240cm" ,
+            "cost" : "325000"
+        },
+        {
+            "id"   : "sofa_bed_jumbo",
+            "desc" : "Panjang 241 — 300cm" ,
+            "cost" : "450000"
+        },
+        {
+            "id"  : "kristalisasi_marmer",
+            "cost": "15000"
+        }
+    ]
+}

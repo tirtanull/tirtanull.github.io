@@ -1,0 +1,27 @@
+{
+    "cuci_bed_single_1":{
+		"srvc": "cuci_bed_single_1",
+        "desc": "1x2",
+		"cost": "200000"
+	},
+    "cuci_bed_single_2":{
+		"srvc": "cuci_bed_single_2",
+        "desc": "1.2x2",
+		"cost": "225000"
+	},
+    "cuci_bed_queen":{
+		"srvc": "cuci_bed_queen",
+        "desc": "1.2x2",
+		"cost": "250000"
+	},
+    "cuci_bed_king":{
+		"srvc": "cuci_bed_king",
+        "desc": "1.8x2",
+		"cost": "275000"
+	},
+    "cuci_bed_superking":{
+		"srvc": "cuci_bed_superking",
+        "desc": "1.8x2",
+		"cost": "300000"
+	}
+}

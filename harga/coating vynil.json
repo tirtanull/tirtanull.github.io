@@ -1,0 +1,10 @@
+{
+    "coating_batu_alam":[{
+		"srvc": "coating_batu_alam",
+		"cost": "30000"
+	}],
+    "coating_vinyl":{
+		"srvc": "coating_vinyl",
+		"cost": "30000"
+	}
+}
