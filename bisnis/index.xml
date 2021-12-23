@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bisnis on My New Hugo Site</title>
-    <link>/bisnis/</link>
+    <link>https://tirta.almuhdilkarim.com/bisnis/</link>
     <description>Recent content in Bisnis on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0400</lastBuildDate><atom:link href="/bisnis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jun 2020 09:19:29 -0400</lastBuildDate><atom:link href="https://tirta.almuhdilkarim.com/bisnis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome To Codex</title>
-      <link>/bisnis/test/</link>
+      <link>https://tirta.almuhdilkarim.com/bisnis/test/</link>
       <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
       
-      <guid>/bisnis/test/</guid>
+      <guid>https://tirta.almuhdilkarim.com/bisnis/test/</guid>
       <description></description>
     </item>
     
