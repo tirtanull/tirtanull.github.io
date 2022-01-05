@@ -28,12 +28,12 @@
         
         
         
-        <link rel="stylesheet" href="https://tirta.almuhdilkarim.com/sass/main.min.4dc96e1e46233a54713354bd97cbc997f7f928b9d619ef9216225f4aa2b18781.css">
+        <link rel="stylesheet" href="https://tirta.almuhdilkarim.com/sass/main.min.ed6d68246d4470048d8d093715225a6f601c3a96167b543bffa1bdd976e52397.css">
     
     </head>
     <body>
         <main class="main" id="top"><nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block navbar-klean" data-navbar-on-scroll="data-navbar-on-scroll">
-    <div class="container"><a class="navbar-brand" href="https://tirta.almuhdilkarim.com/"> <img class="me-3 d-inline-block" src="https://tirta.almuhdilkarim.com//img/logo/roger.png" alt="" width="50" height="50"/></a>
+    <div class="container"><a class="navbar-brand" href="https://tirta.almuhdilkarim.com/"> <img class="me-3 d-inline-block" src="https://tirta.almuhdilkarim.com/img/logo/roger.png" alt="" width="50" height="50"/></a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto pt-2 pt-lg-0 font-base">
@@ -70,7 +70,7 @@
       </div>
     </div>
 </nav><div id="content">
-<section class="order-page">
+<section class="order-page px-sm-8">
     <div class="bg-holder" style="background-image:url(/img/frontpage/illustrations/product-bg-1.png);background-position:center;background-size:cover;">
     </div>
     
@@ -80,7 +80,7 @@
     <div class="container-xl">
         <h1 class="fw-bold display-5 lh-sm my-4">Pesanan Anda</h1>
         <div class="row circle-blend circle-blend-left-product circle-cyan">
-            <div class="col-lg-8 ms-lg-auto my-7 my-lg-0 px-sm-8 px-lg-8 ps-lg-2 ps-xl-0">
+            <div class="col-lg-8 ms-lg-auto my-4 my-lg-0 px-lg-8 ps-lg-2 ps-xl-0">
                 <h5 class="fw-bold mb-4">
                     <div class="icon-wrapper shadow-purple me-4">
                       <div class="icon icon-purple"><span data-feather="clipboard"></span></div>
@@ -94,7 +94,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-lg-4 ms-lg-auto my-7 my-lg-0 px-sm-8 px-lg-0 ps-lg-2 ps-xl-0">
+            <div class="col-lg-4 ms-lg-auto my-5 my-lg-0 px-lg-0 ps-lg-2 ps-xl-0">
                 <div class="sidebox row flex-center">
                     <h5 class="fw-bold mb-4">
                         <div class="icon-wrapper shadow-danger me-4">
@@ -185,101 +185,148 @@
     </div>
 </section>
 <section id="service-menu" class="pop">
-    <div class="content-service">
-        <div class="header">
+    <div class="popup-box">
+        <div class="pop-header">
             <h5 class="fw-bold">Pilih Layanan</h5>
         </div>
-        <ul id="menu-list-order" class="content pt-3 pb-3">
-            <li id="act-general-clening" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    General Cleaning
-                </div>
-                <div class="add-service col-lg-4"  data-template="tpl-general-cleaning">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+        <ul id="menu-layanan" class="row pop-content pt-3 pb-3 px-3 py-3 ">
+            <li id="act-general-clening" class="add-service col-sm-6 flex-center" data-template="tpl-general-cleaning" >
+                <a class="item p-3" href="#general-cleaning">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/general-cleaning.png">
+                    <span>General Cleaning</span>
+                </a>
             </li>
-            <li id="act-toilet" class="row list flex-center pt-3 pb-3 flex-center">
-                <div class="desc col-lg-8 fw-bold">
-                    Pembersihan Toilet
-                </div>
-                <div class="add-service col-lg-4" data-template="tpl-toilet" >
-                    <button class="btn hover-top btn-glow btn-klean" >Tambah</button>
-                </div>
+            <li id="act-toilet" class="add-service col-sm-6 flex-center" data-template="tpl-toilet">
+                <a class="item p-3" href="#pembersihan-toilet">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/toilet-cleaning.png">
+                    <span>Pembersihan Toilet</span>
+                </a>
             </li>
-            <li id="act-cuci-karpet" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Cuci Karpet
-                </div>
-                <div class="add-service col-lg-4" data-template="tpl-cuci-karpet">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-cuci-karpet" class="add-service col-sm-6 flex-center" data-template="tpl-cuci-karpet">
+                <a class="item p-3" href="#cuci-karpet">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/cuci-karpet.png">
+                    <span>Cuci Karpet</span> 
+                </a>
             </li>
-            <li id="act-cuci-kasur" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Cuci Kasur
-                </div>
-                <div class="add-service col-lg-4"  data-template="tpl-cuci-kasur">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-cuci-kasur" class="add-service col-sm-6 flex-center" data-template="tpl-cuci-kasur">
+                <a class="item p-3" href="#cuci-kasur"> 
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/cuci-kasur.png">
+                    <span>Cuci Springbed</span> 
+                </a>
             </li>
-            <li id="act-soft-headboard" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Soft Headboard
-                </div>
-                <div class="add-service col-lg-4"  data-template="tpl-soft-headboard">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-soft-headboard" class="add-service col-sm-6 flex-center" data-template="tpl-soft-headboard">
+                <a class="item p-3" href="#soft-headboard">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/soft-headboard.png">
+                    <span>Cuci Soft Headboard</span> 
+                </a>
             </li>
-            <li id="act-cuci-sofa" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Cuci Sofa
-                </div>
-                <div class="add-service col-lg-4"  data-template="tpl-cuci-sofa">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-cuci-sofa" class="add-service col-sm-6 flex-center" data-template="tpl-cuci-sofa">
+                <a class="item p-3" href="#cuci-sofa">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/cuci-sofa.png">
+                    <span> Cuci Sofa</span>
+                </a>
             </li>
-            <li id="act-cuci-sofabed" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Cuci Sofabed
-                </div>
-                <div class="add-service col-lg-4"  data-template="tpl-cuci-sofabed">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-cuci-sofabed" class="add-service col-sm-6 flex-center" data-template="tpl-cuci-sofabed">
+                <a class="item p-3" href="#cuci-sofabed">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com/img/service/sofa-bed.png">
+                    <span>Cuci Sofabed</span>
+                </a>
             </li>
-            <li id="act-kristalisasi-marmer" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Kristalisasi Marmer
-                </div>
-                <div class="add-service col-lg-4" data-template="tpl-kritalisasi-marmer">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-kristalisasi-marmer" class="add-service col-sm-6 flex-center" data-template="tpl-kritalisasi-marmer">
+                <a class="item p-3" href="#kritalisasi-marmer">
+                    <img class="icon" src="https://tirta.almuhdilkarim.com//img/service/kristalisasi-marmer.png">
+                    <span>Kristalisasi Marmer</span>
+                </a>
             </li>
-            <li id="act-coating" class="row list flex-center pt-3 pb-3 flex-center" >
-                <div class="desc col-lg-8 fw-bold">
-                    Coating Vynil / Batu Alam
-                </div>
-                <div class="add-service col-lg-4"  data-template="tpl-coating">
-                    <button class="btn hover-top btn-glow btn-klean">Tambah</button>
-                </div>
+            <li id="act-coating" class="add-service col-sm-6 flex-center"  data-template="tpl-coating">
+                <a class="item p-3" href="#layanan-coating"> 
+                    <img class="icon" src="https://tirta.almuhdilkarim.com//img/service/coating.png">
+                    <span>Coating Vynil / Batu Alam</span>
+                </a>
             </li>
         </ul>
-        <div class="footer" data-target="toilet-besar">
-            <button id="close-add-service" class="btn close-pop btn-danger fw-bold mt-2 mb-2 mx-2">Tutup</button>
+        <div class="pop-footer">
+            <button id="tutup-menu" class="btn close-pop btn-danger fw-bold mt-2 mb-2 mx-2">Tutup</button>
         </div>
     </div>
-</section>
-<template id="tpl-general-cleaning">
+</section><template id="tpl-coating" >
+    <section id="layanan-coating" class="section">
+        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
+            <div class="header row">
+                <h5 class="fw-bold title col-6 col-lg-7">Coating</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-coating"></span>
+            </div>
+            <div class="mt-2 pt-5 mb-3 content">
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
+            </div>
+            <div class="footer ">
+                <div class="row flex-center">
+                    <div class="product_option col-6">
+                        <label for="jenis-bahan" class="">Jenis Bahan:</label>
+                        <select id="jenis-bahan" class="pilih_produk" data-target="" data-produk="" data-title="" data-desc="">
+                            <option id="select_toilet" value="" selected disabled>Tipe permukaan</option>
+                            <option id="coating_batu_alam" value="coating_vinyl" data-target="coating_vinyl" data-title="Coating Vynil" data-desc="">
+                                Vynil 
+                            </option>
+                            <option id="coating_batu_alam" value="coating_batu_alam" data-target="coating_batu_alam" data-title="Coating Batu Alam" data-desc="">
+                                Batu Alam 
+                            </option>
+                        </select>
+                        <div class="error">Tentukan jenis permukaan</div>
+                    </div>
+                    <div class="col-6">
+                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="coating-template">Tambah <span class="no-mobile">Item</span></button>
+                    </div>
+                </div>
+            </div>
+            <template id="coating-template" class="template" data-target="">
+                <li class="item row flex-center pb-4 mb-3" data-harga="0" data-name="">
+                    <div id="" class="produk col-10">
+                        <div class="input row">
+                            <div class="col-12">
+                                <label for="bahan_coating" class="show name-left"> <span class="nama_produk fw-bold"></span><span class="deskripsi_produk fw-bold"></span><span class="label fw-bold mx-1"> Area</span></label>
+                                <input type="text" name="bahan_coating" class="value nama nama-item" placeholder="Ruang Tamu" data-harga="">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-6">
+                                <label for="panjang_bidang" class="show"> panjang </label>
+                                <input type="number" class="value panjang input-box form-control" name="panjang_bidang"  min="10" max="300" value="" placeholder="10 meter">
+                                <div class="error"></div>
+                            </div>
+                            <div class="col-6">
+                                <label for="lebar_bidang" class="show"> lebar </label>
+                                <input type="number" class="value lebar input-box form-control" name="lebar_bidang" min="10" max="300" value="" placeholder="18 meter">
+                                <div class="error"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hapus-subitem col-2">
+                        <span class="icon-danger" data-feather="x-circle"></span>
+                    </div>
+                </li>
+            </template>
+        </div>
+    </section>
+</template><template id="tpl-general-cleaning">
     <section id="general-cleaning" class="section">
         <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
             <div class="header row">
-                <h5 class="fw-bold title col-lg-7">General Cleaning</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-general-clening"></span>
+                <h5 class="fw-bold title col-6 col-lg-7">General Cleaning</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-general-clening"></span>
             </div>
             <div class="mt-2 mb-3 content item" data-name="">
                 <div class="py-3 px-3">
                     <div class="row flex-center">
-                        <div class="col-lg-8 option rawcost">
+                        <div class="col-12 col-md-8 option rawcost">
                             <span class="show">Jenis Layanan</span>
                             <select name="layanan mx-3" class="layanan-gc">
                                 <option value="cleaning_perawatan">Perawatan</option>
@@ -288,24 +335,27 @@
                             </select>
                             <label for="jenis_general_cleaning">pilih layanan:</label>
                         </div>
-                        <p class="col-lg-4 discost">
+                        <p class="col-md-4 no-mobile discost">
                             biaya<br><span class="biaya fw-bold" data-harga=""></span> / meter
                         </p>
-                    </div>
+                    </div> 
                     <div class="input row">
                         <p class="divider fw-bold mt-3"> Dimensi bangunan </p>
                         <div class="row flex-center">
-                            <div class="col-lg-4">
-                                <label for="panjang_bangunan" class="hide"> panjang </label>
-                                <input type="number" class="value panjang input-box form-control" name="panjang_bangunan"  min="10" max="300" value="" placeholder="panjang">
+                            <div class="col-4">
+                                <label for="panjang_bangunan" class="show"> panjang <span class="no-mobile"> bangunan</span></label>
+                                <input type="number" class="value panjang input-box form-control" name="panjang_bangunan"  min="10" max="100" value="" placeholder="64 meter" required>
+                                <div class="error"></div>
                             </div>
-                            <div class="col-lg-4">
-                                <label for="lebar_bangunan" class="hide"> lebar </label>
-                                <input type="number" class="value lebar input-box form-control" name="lebar_bangunan" min="10" max="300" value="" placeholder="lebar">
+                            <div class="col-4">
+                                <label for="lebar_bangunan" class="show"> lebar <span class="no-mobile"> bangunan</span></label>
+                                <input type="number" class="value lebar input-box form-control" name="lebar_bangunan" min="10" max="100" value="" placeholder="32 meter" required>
+                                <div class="error"></div>
                             </div>
-                            <div class="col-lg-4">
-                                <label for="tingkat_bangunan" class="hide"> jumlah lantai </label>
-                                <input type="number" class="value tingkat input-box form-control" name="tingkat_bangunan"  min="1" max="4" value="" placeholder="Jumlah Lantai">
+                            <div class="col-4">
+                                <label for="tingkat_bangunan" class="show"> <span class="no-mobile">jumlah</span> lantai </label>
+                                <input type="number" class="value tingkat input-box form-control" name="tingkat_bangunan"  min="1" max="10" value="" placeholder="1 Lantai" required>
+                                <div class="error"></div>
                             </div>
                         </div>
                     </div>
@@ -313,342 +363,201 @@
             </div>
         </div>
     </section>
-</template>
-<template id="tpl-cuci-kasur" >
-    <section id="layanan-cuci-kasur" class="section">
+</template><template id="tpl-soft-headboard" >
+    <section id="soft-headboard" class="section">
         <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
             <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Cuci Kasur</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-cuci-kasur"></span>
+                <h5 class="fw-bold title col-6 col-lg-7">Soft Headboard</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-coating"></span>
             </div>
             <div class="mt-2 pt-5 content">
-                <ul class="list-order"></ul>
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
             </div>
             <div class="footer ">
                 <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="jenis-kasur" class="show">Pilih Jenis Kasur:</label>
-                        <select id="jenis-kasur" class="pilih_produk" data-produk="bed_single" data-title="Bed Single" data-desc="(1 x 2m) including 1 pair bantal guling">
-                            <option value="bed_single" data-title="Bed Single" data-desc="(1 x 2m) including 1 pair bantal guling">
+                    <div class="product_option col-6">
+                        <label for="jenis-softheadboard" class="">Tipe Soft Headboard:</label>
+                        <select id="jenis-softheadboard" class="pilih_produk" data-target="" data-produk="" data-title="" data-desc="">
+                            <option id="select_soft_headborad" value="" selected disabled>Pilih tipe</option>
+                            <option id="soft_headboard_single" value="soft_headboard_single" data-target="soft_headboard_single" data-title="Soft Headboard Single" data-desc="(Ukuran 1 x 2m)">
                                 Single - 1 x 2m
                             </option>
-                            <option value="bed_single_plus" data-title="Bed Single plus" data-desc="(1,2 x 2m)including 1 pair bantal guling">
+                            <option id="soft_headborad_single_plus" value="soft_headborad_single_plus" data-target="soft_headborad_single_plus" data-title="Soft Headboard Single plus" data-desc="Ukuran (1,2 x 2m)">
                                 Single plus - 1,2 x 2m
                             </option>
-                            <option value="bed_queen" data-title="Bed Queen" data-desc="(1,6 x 2m)including 2 pair bantal guling">
+                            <option id="soft_headborad_queen" value="soft_headborad_queen" data-target="soft_headborad_queen" data-title="Soft Headboard Queen" data-desc="Ukuran (1,6 x 2m)">
                                 Queen - 1,6 x 2m
                             </option>
-                            <option value="bed_king" data-title="Bed King" data-desc="(1,8 x 2m)including 2 pair bantal guling">
+                            <option id="soft_headborad_king" value="soft_headborad_king" data-target="soft_headborad_king" data-title="Soft Headboard King" data-desc="Ukuran (1,8 x 2m)">
                                 King - 1,8 x 2m
                             </option>
-                            <option value="bed_super_king" data-title="Bed  Super King" data-desc="(2 x 2m)including 2 pair bantal guling">
+                            <option id="soft_headborad_super_king" value="soft_headborad_super_king" data-target="soft_headborad_super_king" data-title="Soft Headboard Super King" data-desc="Ukuran (2 x 2m)">
                                 Super King - 2 x 2m
                             </option>
                         </select>
+                        <div class="error">Pilih tipe terlebih dahulu</div>
                     </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="kasur-template">Tambah Item</button>
-                    </div>
-                </div>
-            </div>
-            <template id="kasur-template">
-                <li class="item row flex-center pb-5" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
-                        <div class="input row">
-                            <div class="col-lg-8">
-                                <p class="nama_produk fw-bold">Bed Single</p>
-                                <p class="deskripsi_produk">(1 x 2m) including 1 pair bantal guling</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="number" class="value jumlah input-box form-control" id="jumlah_kasur" name="jumlah_kasur"  min="10" max="300" value="" placeholder="jumlah">
-                                <label for="jumlah_kasur" class="hide"> jumlah </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hapus-subitem col-lg-2">
-                        <span class="icon-danger" data-feather="x-circle"></span>
-                    </div>
-                </li>
-            </template>
-        </div>
-    </section>
-</template>
-<template id="tpl-soft-headboard" >
-    <section id="layanan-soft-headboard" class="section">
-        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
-            <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Soft Headboard</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-coating"></span>
-            </div>
-            <div class="mt-2 pt-5 content">
-                <ul class="list-order"></ul>
-            </div>
-            <div class="footer ">
-                <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="jenis-softheadboard" class="show">Jenis Soft Headboard:</label>
-                        <select id="jenis-softheadboard" class="pilih_produk" data-produk="soft_headborad_single" data-title="Soft Headboard Single" data-desc="Ukuran (1 x 2m)">
-                            <option value="soft_headborad_single" data-title="Soft Headboard Single" data-desc="(Ukuran 1 x 2m)">
-                                Single - 1 x 2m
-                            </option>
-                            <option value="soft_headborad_single_plus" data-title="Soft Headboard Single plus" data-desc="Ukuran (1,2 x 2m)">
-                                Single plus - 1,2 x 2m
-                            </option>
-                            <option value="soft_headborad_queen" data-title="Soft Headboard Queen" data-desc="Ukuran (1,6 x 2m)">
-                                Queen - 1,6 x 2m
-                            </option>
-                            <option value="soft_headborad_king" data-title="Soft Headboard King" data-desc="Ukuran (1,8 x 2m)">
-                                King - 1,8 x 2m
-                            </option>
-                            <option value="soft_headborad_super_king" data-title="Soft Headboard Super King" data-desc="Ukuran (2 x 2m)">
-                                Super King - 2 x 2m
-                            </option>
-                        </select>
-                    </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="soft-headboard-template">Tambah Item</button>
+                    <div class="col-6">
+                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="soft-headboard-template">Tambah <span class="no-mobile">Item</span></button>
                     </div>
                 </div>
             </div>
-            <template id="soft-headboard-template">
+            <template id="soft-headboard-template" class="template" data-target="">
                 <li class="item row flex-center pb-5" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
+                    <div id="" class="produk col-10">
                         <div class="input row">
-                            <div class="col-lg-8">
+                            <div class="col-8">
                                 <p class="nama_produk fw-bold">Bed Single</p>
                                 <p class="deskripsi_produk">(1 x 2m) including 1 pair bantal guling</p>
                             </div>
-                            <div class="col-lg-4">
-                                <input type="number" class="value jumlah input-box form-control" name="jumlah_headboard"  min="10" max="300" value="" placeholder="jumlah" />
+                            <div class="col-4">
                                 <label for="jumlah_headboard" class="hide"> jumlah </label>
+                                <input type="number" class="value jumlah input-box form-control" name="jumlah_headboard"  min="1" max="50" value="" placeholder="1 pcs" />
+                                <div class="error"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="hapus-subitem col-lg-2">
+                    <div class="hapus-subitem col-2">
                         <span class="icon-danger" data-feather="x-circle"></span>
                     </div>
                 </li>
             </template>
         </div>
     </section>
-</template>
-<template id="tpl-cuci-sofa" >
-    <section id="layanan-cuci-sofa" class="section">
-        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
-            <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Cuci Sofa</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-cuci-sofa"></span>
-            </div>
-            <div class="mt-2 pt-5 content">
-                <ul class="list-order"></ul>
-            </div>
-            <div class="footer ">
-                <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="jenis-sofa" class="show">Ukuran Sofa:</label>
-                        <select id="jenis-sofa" class="pilih_produk" data-produk="sofa_small" data-title="Sofa Kecil" data-desc="Ukuran (1 x 2m)">
-                            <option value="sofa_small" data-title="Sofa Kecil" data-desc="(Ukuran 1 x 2m)">
-                                Kecil ( panjang 0 - 100cm ) 
-                            </option>
-                            <option value="sofa_medium" data-title="Sofa Medium" data-desc="Ukuran (1,2 x 2m)">
-                                Medium  ( panjang 101 — 170cm ) 
-                            </option>
-                            <option value="sofa_large" data-title="Sofa Besar" data-desc="Ukuran (1,6 x 2m)">
-                                Besar ( panjang 171 — 240cm ) 
-                            </option>
-                            <option value="sofa_jumbo" data-title="Sofa Jumbo" data-desc="Ukuran (1,8 x 2m)">
-                                Jumbo ( panjang 241 — 300cm ) 
-                            </option>
-                        </select>
-                    </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="sofa-template">Tambah Item</button>
-                    </div>
-                </div>
-            </div>
-            <template id="sofa-template">
-                <li class="item row flex-center pb-5" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
-                        <div class="input row">
-                            <div class="col-lg-8">
-                                <p class="nama_produk fw-bold"></p>
-                                <p class="deskripsi_produk"></p>
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="number" class="value jumlah input-box form-control" id="jumlah_sofa" name="jumlah_sofa"  min="10" max="300" value="" placeholder="jumlah">
-                                <label for="jumlah_sofa" class="hide"> jumlah </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hapus-subitem col-lg-2">
-                        <span class="icon-danger" data-feather="x-circle"></span>
-                    </div>
-                </li>
-            </template>
-        </div>
-    </section>
-</template>
-<template id="tpl-cuci-sofabed" >
-    <section id="layanan-cuci-sofabed" class="section">
-        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
-            <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Cuci Sofabed</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-cuci-sofabed"></span>
-            </div>
-            <div class="mt-2 pt-5 content">
-                <ul class="list-order"></ul>
-            </div>
-            <div class="footer">
-                <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="jenis-sofabed" class="show">Ukuran Sofabed:</label>
-                        <select id="jenis-sofabed" class="pilih_produk" data-produk="sofa_bed_small" data-title="Sofabed Kecil" data-desc="Ukuran (1 x 2m)">
-                            <option value="sofa_bed_small" data-title="Sofabed Kecil" data-desc="(Ukuran 1 x 2m)">
-                                Kecil ( panjang 0 - 100cm ) 
-                            </option>
-                            <option value="sofa_bed_medium" data-title="Sofabed Medium" data-desc="Ukuran (1,2 x 2m)">
-                                Medium  ( panjang 101 — 170cm ) 
-                            </option>
-                            <option value="sofa_bed_large" data-title="Sofabed Besar" data-desc="Ukuran (1,6 x 2m)">
-                                Besar ( panjang 171 — 240cm ) 
-                            </option>
-                            <option value="sofa_bed_jumbo" data-title="Sofabed Jumbo" data-desc="Ukuran (1,8 x 2m)">
-                                Jumbo ( panjang 241 — 300cm ) 
-                            </option>
-                        </select>
-                    </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="sofabed-template">Tambah Item</button>
-                    </div>
-                </div>
-            </div>
-            <template id="sofabed-template">
-                <li class="item row flex-center pb-5" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
-                        <div class="input row">
-                            <div class="col-lg-8">
-                                <p class="nama_produk fw-bold">Bed Single</p>
-                                <p class="deskripsi_produk">(1 x 2m) including 1 pair bantal guling</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="number" class="value jumlah input-box form-control" id="jumlah_sofabed" name="jumlah_sofabed"  min="10" max="300" value="" placeholder="jumlah">
-                                <label for="jumlah_sofabed" class="hide"> jumlah </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hapus-subitem col-lg-2">
-                        <span class="icon-danger" data-feather="x-circle"></span>
-                    </div>
-                </li>
-            </template>
-        </div>
-    </section>
-</template>
-<template id="tpl-toilet" >
-    <section id="pembersihan-toilet" class="section">
-        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
-            <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Pembersihan Toilet</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-toilet"></span>
-            </div>
-            <div class="mt-2 pt-5 content">
-                <ul class="list-order"></ul>
-             </div>
-            <div class="footer ">
-                <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="jenis-sofa" class="show">Ukuran Toilet:</label>
-                        <select id="jenis-sofa" class="pilih_produk" data-produk="toilet_kecil" data-title="Toilet Kecil" data-desc="Ukuran Maksimum ( 2x2m )">
-                            <option value="toilet_kecil" data-title="Toilet Kecil" data-desc="Ukuran Maksimum ( 2x2m )">
-                                 Kecil ( 2x2m ) 
-                            </option>
-                            <option value="toilet_sedang" data-title="Toilet Sedang" data-desc="Ukuran ( 2x3m )">
-                                Sedang ( 2x3m )  
-                            </option>
-                            <option value="toilet_besar" data-title="Toilet Besar" data-desc="Ukuran (  5x3m )">
-                                Besar ( 5x3m )
-                            </option>
-                        </select>
-                    </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="toilet-item-template">Tambah Item</button>
-                    </div>
-                </div>
-            </div>
-            <template id="toilet-item-template">
-                <li class="item row flex-center pb-5" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
-                        <div class="input row">
-                            <div class="col-lg-8">
-                                <p class="nama_produk fw-bold">Bed Single</p>
-                                <p class="deskripsi_produk">(1 x 2m) including 1 pair bantal guling</p>
-                            </div>
-                            <div class="col-lg-4">
-                                <input type="number" class="value jumlah input-box form-control" name="jumlah_toilet"  min="10" max="300" value="" placeholder="jumlah toilet">
-                                <label for="panjang_bidang" class="hide"> jumlah </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hapus-subitem col-lg-2">
-                        <span class="icon-danger" data-feather="x-circle"></span>
-                    </div>
-                </li>
-            </template>
-        </div>
-    </section>
-</template>
-<template id="tpl-cuci-karpet" >
+</template><template id="tpl-cuci-karpet" >
     <section id="cuci-karpet" class="section">
         <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
             <div class="header pb-2 row">
-                <h5 class="fw-bold title col-lg-7">Cuci Karpet</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total"  data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-cuci-karpet"></span>
+                <h5 class="fw-bold title col-6 col-lg-7">Cuci Karpet</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total"  data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-cuci-karpet"></span>
             </div>
             <div class="pt-5 content">
-                 <ul class="list-order"></ul>
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
             </div>
             <div class="footer">
                 <div class="row flex-center">
-                    <div class="product_option col-lg-8">
+                    <div class="product_option col-6">
                         <label for="jenis-karpet" class="hide"></label>
-                        <select id="jenis-karpet" class="pilih_produk hide" data-produk="karpet_general" data-title="" data-desc="">
-                            <option value="karpet_general" data-title="Karpet General" data-desc="">
-                                 Kecil ( 2x2m ) 
-                            </option>
+                        <select id="jenis-karpet" class="pilih_produk hide" data-produk="karpet_general" data-title="karpet" data-desc="">
+                            <option value="karpet_general" data-title="karpet" data-desc="" selected></option>
                         </select>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-6">
                         <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="karpet-item-template">Tambah Item</button>
                     </div>
                 </div>
             </div>
             <template id="karpet-item-template">
                 <li class="item row flex-center pb-5" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
-                        <label for="id_karpet" class="deskripsi_produk nama_produk"> nama karpet </label>
-                        <input type="text" name="id_karpet" class="value form-control nama-item rounded-pill input-box" placeholder="Nama Karpet, ex : Karpet Ruang Tamu" data-harga="">
+                    <div class="produk col-10 ">
+                        <div class="deskripsi_produk nama_produk"></div>
+                        <label for="id_karpet" class="show name-left"> nama karpet </label>
+                        <input type="text" name="id_karpet" class="value form-control nama-item rounded-pill input-box" placeholder="Karpet Ruang Tamu" data-harga="">
+                        <div class="error"></div>
                         <div class="row">
-                            <div class="col-lg-4">
-                                <input type="number" name="panjang_karpet" class="value panjang input-box form-control" min="1" max="5" value="" placeholder="panjang">
-                                <label for="panjang_karpet" class=""> panjang </label>
+                            <div class="col-4">
+                                <label for="panjang_karpet" class="show"> panjang </label>
+                                <input type="number" name="panjang_karpet" class="value panjang input-box form-control" min="1" max="100" value="" placeholder="15 meter">
+                                <div class="error"></div>
                             </div>
-                            <div class="col-lg-4">
-                                <input type="number" name="lebar_karpet" class="value lebar input-box form-control" min="1" max="5" value="" placeholder="lembar">
-                                <label for="lebar_karpet" class=""> lebar </label>
+                            <div class="col-4">
+                                <label for="lebar_karpet" class="show"> lebar </label>
+                                <input type="number" name="lebar_karpet" class="value lebar input-box form-control" min="1" max="100" value="" placeholder="1 meter">
+                                <div class="error"></div>
                             </div>
-                            <div class="col-lg-4">
-                                <input type="number" name="jumlah_karpet" class="value jumlah input-box form-control" min="1" max="5" value="" placeholder="jumlah">
-                                <label for="jumlah_karpet" class=""> pcs </label>
+                            <div class="col-4">
+                                <label for="jumlah_karpet" class="show"> jumlah </label>
+                                <input type="number" name="jumlah_karpet" class="value jumlah input-box form-control" min="1" max="100" value="" placeholder="1 pcs">
+                                <div class="error"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="hapus-subitem col-lg-2">
+                    <div class="hapus-subitem col-2">
+                        <span class="icon-danger" data-feather="x-circle"></span>
+                    </div>
+                </li>
+            </template>
+        </div>
+    </section>
+</template><template id="tpl-cuci-kasur" >
+    <section id="cuci-kasur" class="section">
+        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
+            <div class="header row">
+                <h5 class="fw-bold title col-6 col-lg-7">Cuci Springbed</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-cuci-kasur"></span>
+            </div>
+            <div class="mt-2 pt-5 content">
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
+            </div>
+            <div class="footer ">
+                <div class="row flex-center">
+                    <div class="product_option col-lg-8">
+                        <label for="jenis-kasur" class="">Pilih Jenis Kasur:</label>
+                        <select id="jenis-kasur" class="pilih_produk" data-produk="" data-title="" data-target="" data-desc="">
+                            <option value="" selected disabled>Pilih Ukuran</option>
+                            <option id="bed_single" value="bed_single" data-title="Bed Single" data-target="bed_single" data-desc="(1 x 2m) including 1 pair bantal guling">
+                                Single - 1 x 2m
+                            </option>
+                            <option id="bed_single_plus" value="bed_single_plus" data-title="Bed Single plus" data-target="bed_single_plus" data-desc="(1,2 x 2m)including 1 pair bantal guling">
+                                Single plus - 1,2 x 2m
+                            </option>
+                            <option id="bed_queen" value="bed_queen" data-title="Bed Queen" data-target="bed_queen" data-desc="(1,6 x 2m)including 2 pair bantal guling">
+                                Queen - 1,6 x 2m
+                            </option>
+                            <option id="bed_king" value="bed_king" data-title="Bed King" data-target="bed_king" data-desc="(1,8 x 2m)including 2 pair bantal guling">
+                                King - 1,8 x 2m
+                            </option>
+                            <option id="bed_super_king" value="bed_super_king" data-title="Bed Super King" data-target="bed_super_king" data-desc="(2 x 2m)including 2 pair bantal guling">
+                                Super King - 2 x 2m
+                            </option>
+                        </select>
+                        <div class="error">Tentukan ukuran kasur</div>
+                    </div>
+                    <div class="col-lg-4">
+                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="kasur-template">Tambah<span class="no-mobile">Item</span></button>
+                    </div>
+                </div> 
+            </div>
+            <template id="kasur-template" class="template" data-target="">
+                <li class="item row flex-center pb-5" data-harga="0" data-name="">
+                    <div id="" class="produk col-10">
+                        <div class="input row">
+                            <div class="col-8">
+                                <p class="nama_produk fw-bold">Bed Single</p>
+                                <p class="deskripsi_produk">(1 x 2m) including 1 pair bantal guling</p>
+                            </div>
+                            <div class="col-4">
+                                <label for="jumlah_kasur" class="hide"> jumlah </label>
+                                <input type="number" class="value jumlah input-box form-control" id="jumlah_kasur" name="jumlah_kasur"  min="1" max="50" value="" placeholder="1 pcs">
+                                <div class="error"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hapus-subitem col-2">
                         <span class="icon-danger" data-feather="x-circle"></span>
                     </div>
                 </li>
@@ -660,107 +569,229 @@
     <section id="kritalisasi-marmer" class="section">
         <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
             <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Kristalisasi Marmer</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-kristalisasi-marmer"></span>
+                <h5 class="fw-bold title col-6 col-lg-7">Kristalisasi Marmer</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-kristalisasi-marmer"></span>
             </div>
             <div class="mt-2 mb-2 content">
-                <div class="py-3 px-3">
-                    <div class="">
-                        <p>Input panjang, luas dan jumlah lantai bangunan  </p>
-                     </div>
-                     <ul class="list-order"></ul>
+                <div class="mt-4">
+                    <p>Tambahkan panjang, luas dan jumlah tingkat bangunan  </p>
                 </div>
-            </div>
-            <div class="footer hide">
-                <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="harga-marmer" class="show hide">Data Marmer:</label>
-                        <select id="harga-marmer" class="pilih_produk hide" data-produk="kristalisasi_marmer" data-title="" data-desc="">
-                            <option value="kristalisasi_marmer" data-title="kristalisasi marmer" data-desc="">
-                            </option>
-                        </select>
-                    </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="kristalisasi-marmer-template">Tambah Item</button>
-                    </div>
-                </div>
-            </div>
-            <template id="kristalisasi-marmer-template">
-                <li class="item row flex-center py-3" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-12">
-                        <label for="id_karpet" class="deskripsi_produk nama_produk hide"> nama karpet </label>
-                        <input type="text" name="id_karpet" class="value hide" placeholder="Nama Karpet, ex : Karpet Ruang Tamu" data-harga="">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <label for="panjang_karpet" class="hide"> panjang </label>
-                                <input type="number" name="panjang_karpet" class="value panjang input-box form-control" min="1" max="5" value="" placeholder="panjang">
-                            </div>
-                            <div class="col-lg-4">
-                                <label for="lebar_karpet" class="hide"> lebar </label>
-                                <input type="number" name="lebar_karpet" class="value lebar input-box form-control" min="1" max="5" value="" placeholder="lebar">
-                            </div>
-                            <div class="col-lg-4">
-                                <label for="jumlah_karpet" class="hide"> lantai </label>
-                                <input type="number" name="jumlah_karpet" class="value jumlah input-box form-control" min="1" max="5" value="" placeholder="lantai">
+                <ul class="list-order mb-3">
+                    <li class="item flex-center py-2" data-harga="0" data-name="">
+                        <div class="produk" data-produk="kristalisasi_marmer">
+                            <div class="input row">
+                                <div class="col-4">
+                                    <label for="panjang_bidang_marmer" class="show"> panjang </label>
+                                    <input type="number" name="panjang_bidang_marmer" class="value panjang input-box form-control" min="5" max="100" value="" placeholder="10 meter">
+                                    <div class="error"></div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="lebar_bidang_marmer" class="show"> lebar </label>
+                                    <input type="number" name="lebar_bidang_marmer" class="value lebar input-box form-control" min="5" max="100" value="" placeholder="3 meter">
+                                    <div class="error"></div>
+                                </div>
+                                <div class="col-4">
+                                    <label for="jumlah_lantai_marmer" class="show"> lantai </label>
+                                    <input type="number" name="jumlah_lantai_marmer" class="value jumlah input-box form-control" min="5" max="100" value="" placeholder="2 lantai">
+                                    <div class="error"></div>
+                                </div>
                             </div>
                         </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</template><template id="tpl-cuci-sofa" >
+    <section id="cuci-sofa" class="section">
+        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
+            <div class="header row">
+                <h5 class="fw-bold title col-6 col-lg-7">Cuci Sofa</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-cuci-sofa"></span>
+            </div>
+            <div class="mt-2 pt-5 content">
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
+            </div>
+            <div class="footer ">
+                <div class="row flex-center">
+                    <div class="product_option col-6">
+                        <label for="jenis-sofa" class="">Ukuran Sofa:</label>
+                        <select id="jenis-sofa" class="pilih_produk" data-target="" data-produk="" data-title="" data-desc="">
+                            <option id="select_sofa" value="" selected disabled>Tipe Sofa</option>
+                            <option id="sofa_small" value="sofa_small" data-target="sofa_small" data-title="Sofa Kecil" data-desc="(Ukuran 1 x 2m)">
+                                Kecil ( panjang 0 - 100cm ) 
+                            </option>
+                            <option id="sofa_medium" value="sofa_medium" data-target="sofa_medium" data-title="Sofa Medium" data-desc="Ukuran (1,2 x 2m)">
+                                Medium  ( panjang 101 — 170cm ) 
+                            </option>
+                            <option id="sofa_large" value="sofa_large" data-target="sofa_large" data-title="Sofa Besar" data-desc="Ukuran (1,6 x 2m)">
+                                Besar ( panjang 171 — 240cm ) 
+                            </option>
+                            <option id="sofa_jumbo"  value="sofa_jumbo" data-target="sofa_jumbo" data-title="Sofa Jumbo" data-desc="Ukuran (1,8 x 2m)">
+                                Jumbo ( panjang 241 — 300cm ) 
+                            </option>
+                        </select>
+                        <div class="error">Tentukan tipe sofa</div>
+                    </div>
+                    <div class=" col-6">
+                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="sofa-template">Tambah <span class="no-mobile">Item</span></button>
+                    </div>
+                </div>
+            </div>
+            <template id="sofa-template" class="template" data-target="">
+                <li class="item row flex-center pb-5" data-harga="0" data-name="">
+                    <div id="" class="produk col-10">
+                        <div class="input row">
+                            <div class="col-8">
+                                <p class="nama_produk fw-bold"></p>
+                                <p class="deskripsi_produk"></p>
+                            </div>
+                            <div class="col-4">
+                                <label for="jumlah_sofa" class="hide"> jumlah </label>
+                                <input type="number" class="value jumlah input-box form-control" id="jumlah_sofa" name="jumlah_sofa"  min="1" max="50" value="" placeholder="1 pcs">
+                                <div class="error"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hapus-subitem col-2">
+                        <span class="icon-danger" data-feather="x-circle"></span>
                     </div>
                 </li>
             </template>
         </div>
     </section>
-</template>
-<template id="tpl-coating" >
-    <section id="layanan-coating" class="section">
+</template><template id="tpl-cuci-sofabed" >
+    <section id="cuci-sofabed" class="section">
         <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
             <div class="header row">
-                <h5 class="fw-bold title col-lg-7">Coating Vinyl / Batu Alam</h5>
-                <h6 class="fw-bold title col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
-                <span class="hapus_order icon-danger col-lg-1" data-feather="trash" data-target="act-coating"></span>
+                <h5 class="fw-bold title col-6 col-lg-7">Cuci Sofabed</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-cuci-sofabed"></span>
             </div>
-            <div class="mt-2 pt-5 mb-3 content">
-                <ul class="list-order"></ul>
+            <div class="mt-2 pt-5 content">
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
             </div>
-            <div class="footer ">
+            <div class="footer">
                 <div class="row flex-center">
-                    <div class="product_option col-lg-8">
-                        <label for="jenis-bahan" class="show">Jenis Bahan:</label>
-                        <select id="jenis-bahan" class="pilih_produk" data-produk="coating_vinyl" data-title="Coating Vynil" data-desc="">
-                            <option value="coating_vinyl" data-title="Coating Vynil" data-desc="">
-                                Vynil 
+                    <div class="product_option col-6">
+                        <label for="jenis-sofabed" class="">Ukuran Sofabed:</label>
+                        <select id="jenis-sofabed" class="pilih_produk" data-target="" data-produk="" data-title="" data-desc="">
+                            <option id="select_sofabed" value="" selected disabled>Pilih Tipe</option>
+                            <option id="sofa_bed_small" value="sofa_bed_small" data-target="sofa_bed_small" data-title="Sofabed Kecil" data-desc="(Ukuran 1 x 2m)">
+                                Kecil ( panjang 0 - 100cm ) 
                             </option>
-                            <option value="coating_batu_alam" data-title="Coating Batu Alam" data-desc="">
-                                Batu Alam 
+                            <option id="sofa_bed_medium" value="sofa_bed_medium" data-target="sofa_bed_medium" data-title="Sofabed Medium" data-desc="Ukuran (1,2 x 2m)">
+                                Medium  ( panjang 101 — 170cm ) 
+                            </option>
+                            <option id="sofa_bed_large" value="sofa_bed_large" data-target="sofa_bed_large" data-title="Sofabed Besar" data-desc="Ukuran (1,6 x 2m)">
+                                Besar ( panjang 171 — 240cm ) 
+                            </option>
+                            <option id="sofa_bed_jumbo" value="sofa_bed_jumbo" data-target="sofa_bed_jumbo" data-title="Sofabed Jumbo" data-desc="Ukuran (1,8 x 2m)">
+                                Jumbo ( panjang 241 — 300cm ) 
                             </option>
                         </select>
+                        <div class="error">Tentukan tipe sofabed</div>
                     </div>
-                    <div class="col-lg-4">
-                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="coating-template">Tambah Item</button>
+                    <div class="col-6">
+                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="sofabed-template">Tambah <span class="no-mobile">Item</span></button>
                     </div>
                 </div>
             </div>
-            <template id="coating-template">
-                <li class="item row flex-center pb-4" data-harga="0" data-name="">
-                    <div id="" class="produk col-lg-10">
+            <template id="sofabed-template" class="template" data-target="">
+                <li class="item row flex-center pb-5" data-harga="0" data-name="">
+                    <div id="" class="produk col-10">
                         <div class="input row">
-                            <span class="nama_produk fw-bold"></span>
-                            <span class="deskripsi_produk fw-bold"></span> 
-                            <div class="col-lg-6">
-                                <label for="bahan_coating" class="hide"></label>
-                                <input type="text" name="bahan_coating" class="value nama nama-item" placeholder="Area, ex : Dapur Lantai 1" data-harga=""><br>
+                            <div class="col-8">
+                                <p class="nama_produk fw-bold"></p>
+                                <p class="deskripsi_produk"></p>
                             </div>
-                            <div class="col-lg-3">
-                                <input type="number" class="value panjang input-box form-control" name="panjang_bidang"  min="10" max="300" value="" placeholder="panjang">
-                                <label for="panjang_bidang" class="hide"> panjang </label>
-                            </div>
-                            <div class="col-lg-3">
-                                <input type="number" class="value lebar input-box form-control" name="lebar_bidang" min="10" max="300" value="" placeholder="lebar">
-                                <label for="lebar_bidang" class="hide"> lebar </label>
+                            <div class="col-4">
+                                <label for="jumlah_sofabed" class="hide"> jumlah </label>
+                                <input type="number" class="value jumlah input-box form-control" id="jumlah_sofabed" name="jumlah_sofabed"  min="1" max="50" value="" placeholder="1 pcs">
+                                <div class="error"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="hapus-subitem col-lg-2">
+                    <div class="hapus-subitem col-2">
+                        <span class="icon-danger" data-feather="x-circle"></span>
+                    </div>
+                </li>
+            </template>
+        </div>
+    </section>
+</template><template id="tpl-toilet" >
+    <section id="pembersihan-toilet" class="section">
+        <div class="circle-col mt-2 mb-2 pb-3 pt-3 px-3 py-3">
+            <div class="header row">
+                <h5 class="fw-bold title col-6 col-lg-7">Pembersihan Toilet</h5>
+                <h6 class="fw-bold title col-4 col-lg-4 sub_total" data-harga="0">Rp 0,00</h6>
+                <span class="hapus_order icon-danger col-2 col-lg-1" data-feather="trash" data-target="act-toilet"></span>
+            </div>
+            <div class="mt-2 pt-5 content">
+                <div class="no-order mb-4">
+                    <div class="box">
+                        <img class="label" src="https://tirta.almuhdilkarim.com/img/service/add-order.png">
+                        <h3> Belum ada order</h3>
+                        <p> Tambah order menggunakan panel dibawah ini </p>
+                    </div>
+                </div>
+                <ul class="list-order" data-order="0"></ul>
+             </div>
+            <div class="footer ">
+                <div class="row flex-center">
+                    <div class="product_option col-6">
+                        <label for="jenis-toilet" class="">Ukuran Toilet:</label>
+                        <select id="jenis-toilet" class="pilih_produk" data-produk="" data-title="" data-target="" data-desc="">
+                            <option id="select_toilet" value="" selected disabled>Pilih Toilet</option>
+                            <option id="toilet_kecil" class="" value="toilet_kecil" data-title="Toilet Kecil" data-target="toilet_kecil" data-desc="Ukuran Maksimum ( 2x2m )">
+                                Toilet Kecil ( 2x2m ) 
+                            </option>
+                            <option id="toilet_sedang" class="" value="toilet_sedang" data-title="Toilet Sedang" data-target="toilet_sedang" data-desc="Ukuran ( 2x3m )">
+                                Toilet Sedang ( 2x3m )  
+                            </option>
+                            <option id="toilet_besar" class="" value="toilet_besar" data-title="Toilet Besar" data-target="toilet_besar" data-desc="Ukuran (  5x3m )">
+                                Toilet Besar ( 5x3m )
+                            </option>
+                        </select>
+                        <div class="error">Tentukan jenis toilet</div>
+                    </div>
+                    <div class="col-6">
+                        <button class="tambah-layanan btn hover-top btn-glow btn-klean" data-template="toilet-item-template">Tambah <span class="no-mobile">Item</span></button>
+                    </div>
+                </div>
+            </div>
+            <template id="toilet-item-template" class="template" data-target="">
+                <li class="item row flex-center pb-5" data-harga="0" data-name="">
+                    <div id="" class="produk col-10">
+                        <div class="input row">
+                            <div class="col-8">
+                                <p class="nama_produk fw-bold"></p>
+                                <p class="deskripsi_produk"></p>
+                            </div>
+                            <div class="col-4">
+                                <label for="panjang_bidang" class="hide"> jumlah </label>
+                                <input type="number" class="value jumlah input-box form-control" name="jumlah_toilet"  min="1" max="20" value="" placeholder="2 toilet">
+                                <div class="error"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hapus-subitem col-2" >
                         <span class="icon-danger" data-feather="x-circle"></span>
                     </div>
                 </li>
@@ -768,8 +799,6 @@
         </div>
     </section>
 </template>
-
-
         </div>
 <footer class="pb-0 pt-6">
     <div class="bg-holder" style="background-image:url(/img/frontpage/illustrations/footer-bg.png);background-position:center;background-size:cover;">
@@ -860,7 +889,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&amp;display=swap" rel="stylesheet"></main>
 
   
-  <script src="/js/order.min.3905cca5fab0d10976a994131c1693e0a3b46bfd0a2b1b2c55c0173d2224ff61.js" integrity="sha256-OQXMpfqw0Ql2qZQTHBaT4KO0a/0KKxssVcAXPSIk/2E=" crossorigin="anonymous"></script>
+  <script src="/js/order.min.734b43630490abd1ba07e16599d95c16769852f2be372f4ef98e607fc6327c9b.js" integrity="sha256-c0tDYwSQq9G6B&#43;FlmdlcFnaYUvK&#43;Ny9O&#43;Y5gf8YyfJs=" crossorigin="anonymous"></script>
 
 
     </body>
