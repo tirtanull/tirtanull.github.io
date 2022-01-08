@@ -1,0 +1,284 @@
+{
+    "product" : [
+        {
+            "slug"  : "cleaning_perawatan",
+            "icon"  : "gc_perawatan.jpg",
+            "tax_id": "general_cleaning",
+            "title" : "paket 1",
+            "ukuran": "perawatan biasa",
+            "desc"  : "paket perawatan biasa",
+            "satuan": "meter",
+            "cost"  : "15000"
+        },
+        {
+            "slug"  : "cleaning_renovasi",
+            "icon"  : "gc_renovasi.jpeg",
+            "tax_id": "general_cleaning",
+            "title" : "paket 2",
+            "ukuran": "pasca renovasi",
+            "desc"  : "paket pasca renovasi" ,
+            "satuan": "meter",
+            "cost"  : "20000"
+        },
+        {
+            "slug"  : "cleaning_bencana",
+            "icon"  : "gc_bencana.webp",
+            "tax_id": "general_cleaning",
+            "title" : "paket 3",
+            "ukuran": "pasca bencana",
+            "desc"  : "paket pasca bencana" ,
+            "satuan": "meter",
+            "cost"  : "25000"
+        },
+        {
+            "slug"  : "toilet_kecil",
+            "icon"  : "toilet_kecil.jpg",
+            "tax_id": "toilet",
+            "title" : "toilet kecil",
+            "ukuran": "(2m x 2m)",
+            "desc"  : "ukuran 2x2 m" ,
+            "satuan": "toilet",
+            "cost"  : "400000"
+        },
+        {
+            "slug"  : "toilet_sedang",
+            "icon"  : "toilet_sedang.jpg",
+            "tax_id": "toilet",
+            "title" : "toilet sedang",
+            "ukuran": "(2m x 3m)",
+            "desc"  : "ukuran 2x3 m" ,
+            "satuan": "toilet",
+            "cost"  : "500000"
+        },
+        {
+            "slug"  : "toilet_besar",
+            "icon"  : "toilet_besar.jpeg",
+            "tax_id": "toilet",
+            "title" : "toilet besar",
+            "ukuran": "(diatas 2m x 3m)",
+            "desc"  : "ukuran > 2x3 m" ,
+            "satuan": "toilet",
+            "cost"  : "600000"
+        },    
+        {
+            "slug"  : "karpet_general",
+            "icon"  : "carpet.jpeg",
+            "tax_id": "surface",
+            "title" : "karpet",
+            "ukuran": "pencucian",
+            "desc"  : "" ,
+            "satuan": "meter",
+            "cost"  : "15000"
+        },
+        {
+            "slug"  : "coating_batu_alam",
+            "icon"  : "batu_alam.jpg",
+            "tax_id": "surface",
+            "title" : "batu alam",
+            "ukuran": "coating",
+            "desc"  : "" ,
+            "satuan": "meter",
+            "cost"  : "30000"
+        },
+        {
+            "slug"  : "coating_vinyl",
+            "icon"  : "vynil.jpg",
+            "tax_id": "surface",
+            "title" : "vinyl",
+            "ukuran": "coating",
+            "desc"  : "" ,
+            "satuan": "meter",
+            "cost"  : "25000"
+        },
+        {
+            "slug"  : "kristalisasi_marmer",
+            "icon"  : "marmer.jpg",
+            "tax_id": "surface",
+            "title" : "Marmer",
+            "ukuran": "kristalisasi",
+            "desc"  : "" ,
+            "satuan": "pcs",
+            "cost"  : "15000"
+        },
+        {
+            "slug"  : "bed_single",
+            "icon"  : "springbed_single.jpg",
+            "tax_id": "springbed",
+            "title" : "single",
+            "ukuran": "(1m x 2m)",
+            "desc"  : "(1 x 2m) including 1 pair bantal guling" ,
+            "satuan": "pcs",
+            "cost"  : "200000"
+        },
+        {
+            "slug"  : "bed_single_plus",
+            "icon"  : "springbed_single_plus.jpg",
+            "tax_id": "springbed",
+            "title" : "single plus",
+            "ukuran": "(1,2m x 2m)",
+            "desc"  : "(1,2 x 2m)including 1 pair bantal guling" ,
+            "satuan": "pcs",
+            "cost"  : "225000"
+        },
+        {
+            "slug"  : "bed_queen",
+            "icon"  : "springbed_queen.jpg",
+            "tax_id": "springbed",
+            "title" : "queen",
+            "ukuran": "(1,6m x 2m)",
+            "desc"  : "(1,6 x 2m)including 2 pair bantal guling" ,
+            "satuan": "pcs",
+            "cost"  : "250000"
+        },
+        {
+            "slug"  : "bed_king",
+            "icon"  : "springbed_king.jpeg",
+            "tax_id": "springbed",
+            "title" : "king",
+            "ukuran": "(1,8m x 2m)",
+            "desc"  : "(1,8 x 2m)including 2 pair bantal guling" ,
+            "satuan": "pcs",
+            "cost"  : "275000"
+        },
+        {
+            "slug"  : "bed_super_king",
+            "icon"  : "springbed_super_king.jpeg",
+            "tax_id": "springbed",
+            "title" : "super king",
+            "ukuran": "(2m x 2m)",
+            "desc"  : "(2 x 2m)including 2 pair bantal guling" ,
+            "satuan": "pcs",
+            "cost"  : "300000"
+        },
+        {
+            "slug"  : "sofa_small",
+            "icon"  : "sofa_small.jpg",
+            "tax_id": "sofa",
+            "title" : "kecil",
+            "ukuran": "dibawah 1m",
+            "desc"  : "Ukuran dibawah 100cm" ,
+            "satuan": "pcs",
+            "cost"  : "70000"
+        },
+        {
+            "slug"  : "sofa_medium",
+            "icon"  : "sofa_medium.jpg",
+            "tax_id": "sofa",
+            "title" : "medium",
+            "ukuran": "1m — 1,7m",
+            "desc"  : "Panjang 101 — 170cm" ,
+            "satuan": "pcs",
+            "cost"  : "150000"
+        },
+        {
+            "slug"  : "sofa_large",
+            "icon"  : "sofa_large.jpg",
+            "tax_id": "sofa",
+            "title" : "besar",
+            "ukuran": "1,7m — 2,4m",
+            "desc"  : "Panjang 171 — 240cm" ,
+            "satuan": "pcs",
+            "cost"  : "250000"
+        },
+        {
+            "slug"  : "sofa_jumbo",
+            "icon"  : "sofa_jumbo.jpg",
+            "tax_id": "sofa",
+            "title" : "jumbo",
+            "ukuran": "2,4m — 3m",
+            "desc"  : "Panjang 241 — 300cm" ,
+            "satuan": "pcs",
+            "cost"  : "300000"
+        },
+        {
+            "slug"  : "sofa_bed_small",
+            "icon"  : "sofabed_small.jpeg",
+            "tax_id": "sofa_bed",
+            "title" : "kecil",
+            "ukuran": "dibawah 1m",
+            "desc"  : "dibawah 100cm" ,
+            "satuan": "pcs",
+            "cost"  : "110000"
+        },
+        {
+            "slug"  : "sofa_bed_medium",
+            "icon"  : "sofabed_medium.jpeg",
+            "tax_id": "sofa_bed",
+            "title" : "medium",
+            "ukuran": "1m - 1,7m",
+            "desc"  : "Panjang 101 — 170cm" ,
+            "satuan": "pcs",
+            "cost"  : "250000"
+        },
+        {
+            "slug"  : "sofa_bed_large",
+            "icon"  : "sofabed_large.jpg",
+            "tax_id": "sofa_bed",
+            "title" : "besar",
+            "ukuran": "1,7m - 2,4m",
+            "desc"  : "Panjang 171 — 240cm" ,
+            "satuan": "pcs",
+            "cost"  : "325000"
+        },
+        {
+            "slug"  : "sofa_bed_jumbo",
+            "icon"  : "sofabed_jumbo.jpeg",
+            "tax_id": "sofa_bed",
+            "title" : "jumbo",
+            "ukuran": "2,4m - 3m",
+            "desc"  : "Panjang 241 — 300cm" ,
+            "satuan": "pcs",
+            "cost"  : "450000"
+        },
+        {
+            "slug"  : "soft_headborad_single",
+            "icon"  : "sotfheadboard_single.jpeg",
+            "tax_id": "soft_headboard",
+            "title" : "single",
+            "ukuran": "(1m x 2m)",
+            "desc"  : "(1m x 2m)" ,
+            "satuan": "pcs",
+            "cost"  : "200000"
+        },
+        {
+            "slug"  : "soft_headborad_single_plus",
+            "icon"  : "sotfheadboard_single_plus.jpeg",
+            "tax_id": "soft_headboard",
+            "title" : "single plus",
+            "ukuran": "(1,2m x 2m)",
+            "desc"  : "(1,2m x 2m)",
+            "satuan": "pcs",
+            "cost"  : "225000"
+        },
+        {
+            "slug"  : "soft_headborad_queen",
+            "icon"  : "sotfheadboard_queen.jpeg",
+            "tax_id": "soft_headboard",
+            "title" : "queen",
+            "ukuran": "(1,6m x 2m)",
+            "desc"  : "(1,6m x 2m)",
+            "satuan": "pcs",
+            "cost"  : "250000"
+        },
+        {
+            "slug"  : "soft_headborad_king",
+            "icon"  : "sotfheadboard_king.jpeg",
+            "tax_id": "soft_headboard",
+            "title" : "king",
+            "ukuran": "(1,8m x 2m)",
+            "desc"  : "(1,8m x 2m)",
+            "satuan": "pcs",
+            "cost"  : "275000"
+        },
+        {
+            "slug"  : "soft_headborad_super_king",
+            "icon"  : "sotfheadboard_super_king.jpeg",
+            "tax_id": "soft_headboard",
+            "title" : "super king",
+            "ukuran": "(2m x 2m)",
+            "desc"  : "(2m x 2m)",
+            "satuan": "pcs",
+            "cost"  : "300000"
+        }
+    ]
+}
